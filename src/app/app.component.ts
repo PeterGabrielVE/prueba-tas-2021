@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'prueba-tas-2021';
+  anio: number = new Date().getFullYear();
 }
